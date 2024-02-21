@@ -4,7 +4,7 @@
 Creates an http server that exposes an endpoint to get weather data from OpenWeather and gives description of the current weather an conditions.
 
 Notes:
-- Left api call just like OpenWeather's api. Didn't include all the optional params except for `unit`
+- Left api call just like OpenWeather's api. Didn't include all the optional params except for `units`
 
 
 
@@ -23,7 +23,7 @@ Notes:
 | `lat`   |  **Required**. Latitude coordinate of city  |
 | `lon`   |  **Required**. Longitude coordinate of city |
 | `appid`   |  **Required**. Your OpenWeather API key. Overwrites anything set in main.go  |
-| `unit`   |  Optional. Default is Kelvin. `imperial` = °F, `metric` = °C |
+| `units`   |  Optional. Default is Kelvin. `imperial` = °F, `metric` = °C |
 
 
 

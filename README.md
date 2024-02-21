@@ -4,7 +4,6 @@
 Creates an http server that exposes an endpoint to get weather data from OpenWeather and gives description of the current weather an conditions.
 
 Notes:
-- Must provide apiKey as param or set in main.go.
 - Left api call just like OpenWeather's api. Didn't include all the optional params except for `unit`
 
 

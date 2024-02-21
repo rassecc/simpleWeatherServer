@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"simpleWeatherServer/models"
 	"strings"
-	"weather/models"
 )
 
 const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&appid=%s"
